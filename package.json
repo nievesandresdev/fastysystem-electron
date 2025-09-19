@@ -1,0 +1,19 @@
+{
+  "name": "fastysystem-electron",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && electron ."
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "electron": "^37.3.1",
+    "keytar": "^7.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.11",
+    "typescript": "^5.9.2"
+  }
+}
